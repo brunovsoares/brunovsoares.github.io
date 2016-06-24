@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      AngularJS Locationproviderhtml5mode
-date:       2015-07-11
+date:       2016-06-24
 summary:    Angular HTML5 Mode URLs Amigáveis Apache (usando htaccess)
 categories: AngularJS
 ---
@@ -24,4 +24,4 @@ RewriteRule ^ /index.html
 
 ## Como funciona?
 
-Modo HTML 5 baseia-se na história HTML5 API, que essencialmente permite definir um URL no mesmo domínio com JavaScript. O arquivo .htaccess torna possível recarregar uma página (ou ir para uma página hashbang-less para que o assunto) sem obter uma resposta 404 do servidor. Além disso, se a API Histórico HTML5 não está disponível, o aplicativo Angular usará automaticamente o hashbang como um fallback. Leia mais sobre isso nesta página Angular docs.
+O html5mode baseia-se na história HTML5 API, que essencialmente permite definir um URL no mesmo domínio com JavaScript. O arquivo .htaccess torna possível recarregar uma página (ou ir para uma página hashbang-less para que o assunto) sem obter uma resposta 404 do servidor. Além disso, se a API Histórico HTML5 não está disponível, o aplicativo Angular usará automaticamente o hashbang como um fallback. Leia mais sobre isso nesta página Angular docs.

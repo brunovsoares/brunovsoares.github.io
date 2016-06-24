@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Bruno Soares
+email:       stylebrunno@example.com
+author:      Bruno Soares
+description: "Um blog tão simples quanto a vida de um Front"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://brunovsoares.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -38,10 +38,10 @@ facebook_comments_number: 10
 
 # Social icons
 github_username: brunovsoares
-bitbucket_username:
+bitbucket_username:bruno_soares
 stackoverflow_id:
 twitter_username:
-skype_username:
+skype_username:vsoares.bruno
 steam_nickname:
 google_plus_id:
 linkedin_username:
@@ -52,7 +52,7 @@ paypal_url:
 flattr_button:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
