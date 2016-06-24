@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      AngularJS Locationproviderhtml5mode
+title:      AngularJS html5mode
 date:       2016-06-24
 summary:    Angular HTML5 Mode URLs Amigáveis Apache (usando htaccess)
 categories: AngularJS
