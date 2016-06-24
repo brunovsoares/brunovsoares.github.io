@@ -22,7 +22,11 @@ angular.module('main', []).config(['$locationProvider',
 Após fazer isso, você precisa criar um arquivo .htaccess na raiz do seu servidor:
 
 RewriteEngine On
-RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR] RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d RewriteRule ^ - [L]
+    RewriteCond %{DOCUMENT_ROOT}
+    %{REQUEST_URI} -f [OR]
+    RewriteCond
+    %{DOCUMENT_ROOT}
+    %{REQUEST_URI} -d RewriteRule ^ - [L]
 
 RewriteRule ^ /index.html
 
