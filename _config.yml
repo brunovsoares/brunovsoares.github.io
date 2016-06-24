@@ -37,7 +37,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: brunovsoares
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
@@ -54,10 +54,10 @@ flattr_button:
 # Post sharing icons
 show_sharing_icons: false
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
@@ -66,8 +66,8 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: 'Novos'
+    older: 'Anteriores'
   share_buttons:
     text:         'Share this post!'
     facebook:     'Share on Facebook'
@@ -82,20 +82,20 @@ text:
   post:
     updated:        'Updated'
     minute_read:    'minute read'
-    related_posts:  'Related Posts'
+    related_posts:  'Posts Relacionados '
   index:
     coming_soon: 'Coming soon...'
   contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
+    email:    'Email'
+    content:  'O que você gostaria de me contar?'
+    subject:  'Enviar!'
+    submit:   'Diga um oi!'
     ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
+      sending:  'enviando..'
+      sent:     'Mensagem enviada!'
+      error:    'Erro!'
+  thanks: 'Obrigado por entrar em contato. Vou responder o mais rápido possível.'
+  og_locale: 'pt_BR'
 
 # Build settings
 markdown:     kramdown
