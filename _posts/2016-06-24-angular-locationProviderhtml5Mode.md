@@ -21,12 +21,11 @@ angular.module('main', []).config(['$locationProvider',
 {% endhighlight %}
 Após fazer isso, você precisa criar um arquivo .htaccess na raiz do seu servidor:
 
-{% highlight %}
 RewriteEngine On
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR] RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d RewriteRule ^ - [L]
 
 RewriteRule ^ /index.html
-{% endhighlight %}
+
 ## Como funciona?
 
 O html5mode baseia-se na história HTML5 API, que essencialmente permite definir um URL no mesmo domínio com JavaScript. O arquivo .htaccess torna possível recarregar uma página (ou ir para uma página hashbang-less para que o assunto) sem obter uma resposta 404 do servidor. Além disso, se a API Histórico HTML5 não está disponível, o aplicativo Angular usará automaticamente o hashbang como um fallback. Leia mais sobre isso nesta página [Angular docs](https://docs.angularjs.org/guide/$location#html5-mode).
